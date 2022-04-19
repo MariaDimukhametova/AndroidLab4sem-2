@@ -15,5 +15,5 @@ class AppModule {
     fun provideContext(app: Application): Context = app.applicationContext
 
     @Provides
-    fun provideRecipeMapper(): FilmMapperImpl = FilmMapperImpl()
+    fun provideFilmMapper(): FilmMapperImpl = FilmMapperImpl()
 }
